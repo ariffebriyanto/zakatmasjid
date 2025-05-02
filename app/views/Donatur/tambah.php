@@ -1,5 +1,5 @@
 <div class="container mt-4">
-    <h3>Tambah Donatur</h3>
+    <h3>Tambah Peserta</h3>
     <form action="<?= BASEURL; ?>/Donatur/aksi_tambah" method="POST">
         <div class="form-group mb-2">
             <label>Nama</label>

@@ -74,7 +74,7 @@
                                                 <a href="#"><img src="<?= BASEURL; ?>/assets_web/img/baz.png" alt="" />
                                                 </a>
                                             </div>
-                                            <br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
+                                            <br><center><p>Repost by <a href='#' title='' target='_blank'>Al Amin Surabaya</a></p></center>
                                             
                                         </div>
                                     </div>

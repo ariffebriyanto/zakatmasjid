@@ -10,7 +10,7 @@ class KelompokQurban_model {
 
  // Method untuk mengambil semua kelompok qurban
     public function getAllKelompokQurban() {
-        $this->db->query("SELECT * FROM kelompok_qurban ORDER BY id DESC");
+        $this->db->query("SELECT * FROM kelompok_qurban ORDER BY id ASC");
         return $this->db->resultSet();
     }
 	

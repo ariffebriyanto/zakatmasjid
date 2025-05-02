@@ -120,7 +120,10 @@ public function aksi_tambah() {
             $this->model('Donatur_model')->catatQurban($data['id'], $jenis_hewan, $kelompok['id']);
             header("Location: " . BASEURL . "/Donatur");
             exit;
-        }
+        }else{
+			header("Location: " . BASEURL . "/Donatur");
+            exit;
+		}
     } else {
         // Jika tidak ada kelompok yang tersedia, beri tahu user
         echo "<script>alert('Kelompok belum tersedia atau penuh. Silakan buat kelompok baru.');window.location.href='" . BASEURL . "/Donatur/edit/" . $data['id'] . "';</script>";

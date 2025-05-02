@@ -160,6 +160,10 @@ if(!isset($_SESSION['username'])){
                                 <a href="<?=BASEURL;?>/Donatur" class="dropdown-item" target="blank">Peserta Qurban</a>
                                 <a href="<?=BASEURL;?>/KelompokQurban" class="dropdown-item" target="blank">Kelompok Qurban</a>
                                 <a href="<?=BASEURL;?>/Qurban/listall" class="dropdown-item" target="blank">Qurban</a>
+								 <a href="<?=BASEURL;?>/PenerimaQurban/index" class="dropdown-item" target="blank">Penerima Qurban</a>
+								  <a href="<?=BASEURL;?>/PenerimaQurban/tukarkuponqr" class="dropdown-item" target="blank">Tukar Kupon Qr</a>
+								  <a href="<?=BASEURL;?>/PenerimaQurban/tukarkupon" class="dropdown-item" target="blank">Tukar Kupon</a>
+								   <a href="<?=BASEURL;?>/PenerimaQurban/indextukar" class="dropdown-item" target="blank">Monitoring Penukaran Kupon</a>
                                 
                             </div>
                         </li>
@@ -285,6 +289,10 @@ if(!isset($_SESSION['username'])){
                                         <li><a href="<?=BASEURL;?>/Donatur" target="_blank">Peserta Kurban</a></li>
                                         <li><a href="<?=BASEURL;?>/KelompokQurban" target="_blank">Kelompok Kurban</a></li>
                                         <li><a href="<?=BASEURL;?>/Qurban/listall" target="_blank">Transaksi Kurban</a></li>
+										 <li><a href="<?=BASEURL;?>/PenerimaQurban/index" target="blank">Penerima Qurban</a></li>
+										 <li><a href="<?=BASEURL;?>/PenerimaQurban/tukarkuponqr"  target="blank">Tukar Kupon Otomatis</a></li>
+								 <li> <a href="<?=BASEURL;?>/PenerimaQurban/tukarkupon"  target="blank">Tukar Kupon Manual</a></li>
+								 <li><a href="<?=BASEURL;?>/PenerimaQurban/indextukar"  target="blank">Monitoring Penukaran Kupon</a></li>
                                   </ul>
                                   </li>
                                  <li><a href="<?=BASEURL;?>/Web/lihat_contact"><i class="fa big-icon fa-user"></i> Kritik & Saran</a></li>

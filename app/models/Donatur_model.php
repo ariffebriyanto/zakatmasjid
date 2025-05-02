@@ -10,7 +10,7 @@ class Donatur_model {
 
 	public function getAllDonatur()
 	{
-		$this->db->query("SELECT * FROM donatur ORDER BY id DESC");
+		$this->db->query("SELECT * FROM donatur ORDER BY id ASC");
 		return $this->db->resultSet();
 	}
 	

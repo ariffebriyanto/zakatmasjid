@@ -50,7 +50,7 @@ html, body {
                                         <ul class="breadcome-menu">
                                             <li><a href="<?=BASEURL;?>/home_index">Home</a> <span class="bread-slash">/</span>
                                             </li>
-                                            <li><span class="bread-blod">Data Donatur</span>
+                                            <li><span class="bread-blod">Data Peserta</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -78,7 +78,7 @@ html, body {
                                         <ul class="breadcome-menu">
                                             <li><a href="<?=BASEURL;?>/home_index">Home</a> <span class="bread-slash">/</span>
                                             </li>
-                                            <li><span class="bread-blod">Data Donatur</span>
+                                            <li><span class="bread-blod">Data Peserta</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -101,7 +101,7 @@ html, body {
 								<p align="left"><a href="<?= BASEURL; ?>/KelompokQurban/" button type="button" class="btn btn-primary">Kembali Kelompok Kurban</a>
                                   </p>
                                     <div class="main-sparkline13-hd">
-                                        <h1>Tabel <span class="table-project-n">Data</span>  Donatur Dan Qurban <?= $data['kelompok']['nama_kelompok']; ?> (<?= ucfirst($data['kelompok']['jenis_hewan']); ?>)</h1>
+                                        <h1>Tabel <span class="table-project-n">Data</span>  Peserta Dan Qurban <?= $data['kelompok']['nama_kelompok']; ?> (<?= ucfirst($data['kelompok']['jenis_hewan']); ?>)</h1>
                                     </div>
                                 </div>
                                 
@@ -112,7 +112,7 @@ html, body {
                                             <thead>
                                                 <tr>
                            <th>No</th>
-                <th>Donatur</th>
+                <th>Peserta</th>
                 <th>Aksi</th>
                         </tr>
                       </thead>

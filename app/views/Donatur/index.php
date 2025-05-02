@@ -78,7 +78,7 @@ html, body {
                                         <ul class="breadcome-menu">
                                             <li><a href="<?=BASEURL;?>/home_index">Home</a> <span class="bread-slash">/</span>
                                             </li>
-                                            <li><span class="bread-blod">Donatur</span>
+                                            <li><span class="bread-blod">Peserta</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -99,13 +99,13 @@ html, body {
                             <div class="sparkline13-list shadow-reset">
                                 <div class="sparkline13-hd">
                                     <div class="main-sparkline13-hd">
-                                        <h1>Tabel <span class="table-project-n">Data</span>  Donatur</h1>
+                                        <h1>Tabel <span class="table-project-n">Data</span>  Peserta Kurban</h1>
                                     </div>
                                 </div>
                                 
                                 <div class="sparkline13-graph">
    <p align="left">
-                            <a href="<?= BASEURL; ?>/Donatur/tambah" class="btn btn-primary">Tambah Peserta Qurban</a>
+                            <a href="<?= BASEURL; ?>/Donatur/tambah" class="btn btn-primary">Tambah Peserta Kurban</a>
                         </p>
                                     <div class="datatable-dashv1-list custom-datatable-overright">
                                         <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-click-to-select="true" data-toolbar="#toolbar">
@@ -115,6 +115,7 @@ html, body {
                 <th>Nama</th>
                 <th>Alamat</th>
 				 <th>Handphone</th>
+				  <th>Jenis Kurban</th>
                 <th>Aksi</th>
                         </tr>
                       </thead>
@@ -125,6 +126,7 @@ html, body {
                 <td><?= htmlspecialchars($d['nama']); ?></td>
                 <td><?= htmlspecialchars($d['alamat']); ?></td>
 				<td><?= htmlspecialchars($d['handphone']); ?></td>
+				<td><?= htmlspecialchars($d['jenis_qurban']); ?></td>
 
 <td>
            <a href="<?= BASEURL; ?>/Donatur/form_edit/<?= $d['id']?>" class="btn btn-primary btn-sm">Edit</a>
